@@ -37,7 +37,7 @@
 
 		.navbar-dark .navbar-brand { color: #FCE4EC !important; }
 		.navbar-brand { font-family: 'Pacifico', cursive; font-size: 1.5rem; }
-		footer { font-family: 'Pacifico', cursive; }
+		.pacifico { font-family: 'Pacifico', cursive; }
 
 		.bg-danger { background-color: #ec4447 !important; }
 		.card { border: 0px; }
@@ -126,10 +126,10 @@
 								<script>
 								var x = document.getElementsByClassName("example");
 								var pixels = 100;
-								var percent = 8; // for no padding change to 0
+								var percent = 0; // for no padding change to 0
 								var width = document.getElementById('fbresp').offsetWidth;
 								var percentage = Math.round( ( width - (width / pixels * percent) ) ) ; 
-								  x[0].innerHTML = '<div class="fb-group" data-href="https://www.facebook.com/groups/1060384997769816" data-width="' + percentage + 'px" data-skin="dark" data-show-social-context="false" data-show-metadata="false"></div>';
+								  x[0].innerHTML = '<div class="fb-group" data-href="https://www.facebook.com/groups/1060384997769816" data-width="' + percentage + 'px" data-skin="dark" data-show-social-context="true" data-show-metadata="true"></div>';
 								</script>
 					</div>
 				</div>
